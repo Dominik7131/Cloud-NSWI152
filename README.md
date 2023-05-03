@@ -3,7 +3,7 @@
 ## Lab 6
 - podle zadaného [tutoriálu](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-dotnet?tabs=azure-portal%2Cwindows%2Cpasswordless%2Csign-in-azure-cli) jsem vytvořil svou Azure Cosmos DB
 
-![lab04-1](Lab4-AzureCosmosDB/Lab-4-01-CreateCosmosDB)
+![lab04-1](./Lab4-AzureCosmosDB/Lab-4-01-CreateCosmosDB)
 
 - přidal jsem do Visual Studia svůj cosmos endpoint a primary key, abych se odtud mohl připojit ke svému Azure Cosmos DB
 
