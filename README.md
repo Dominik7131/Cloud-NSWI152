@@ -1,6 +1,6 @@
 # Cloud-NSWI152
 
-## Lab 6
+## Lab 4
 - podle zadaného [tutoriálu](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-dotnet?tabs=azure-portal%2Cwindows%2Cpasswordless%2Csign-in-azure-cli) jsem vytvořil svou Azure Cosmos DB
 
 ![lab04-1](Lab4-AzureCosmosDB/Lab-4-01-CreateCosmosDB.png)
