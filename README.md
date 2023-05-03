@@ -1,6 +1,8 @@
 # Cloud-NSWI152
 
-- poznámka: během dělání úkolů jsem použil dva různé Microsoft účty
+- poznámky:
+    - během dělání úkolů jsem použil dva různé Microsoft účty
+    - u některých screenshotů jde špatně vidět text, proto se hodí je otevřít v novém okně
 
 ## Lab 1
 - podle instrukcí jsem založil a publikoval jednoduchou aplikaci
@@ -20,7 +22,7 @@
 
 ![lab02-2](Lab2-AzureSQL/Lab-2-01-Database-Created.png)
 
-- pomocí příkazu jsem vytvořil tabulku
+- vytvořil jsem tabulku
 
 ![lab02-3](Lab2-AzureSQL/Lab-2-02-Database-Query.png)
 
@@ -44,7 +46,7 @@
 
 
 ## Lab 4
-- podle zadaného [tutoriálu](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-dotnet?tabs=azure-portal%2Cwindows%2Cpasswordless%2Csign-in-azure-cli) jsem vytvořil svou Azure Cosmos DB
+- podle zadaného [tutoriálu](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-dotnet?tabs=azure-portal%2Cwindows%2Cpasswordless%2Csign-in-azure-cli) jsem založil Azure Cosmos DB
 
 ![lab04-1](Lab4-AzureCosmosDB/Lab-4-01-CreateCosmosDB.png)
 
@@ -71,17 +73,15 @@
 
 ![lab05-1](Lab5-ApplicationInsights/Lab5-01-Applications-Insights-created.png)
 
-- přidal jsem telemetry
+- přidal jsem telemetry a aplikace úspěšně funguje
 
 ![lab05-2](Lab5-ApplicationInsights/Lab5-02-Telemetry-added.png)
-
-- aplikace úspěšně funguje
 
 ![lab05-3](Lab5-ApplicationInsights/Lab5-03-App-Insight.png)
 
 ## Lab 6
 
-- založil jsem KeyVault a vytovřil key a secret
+- založil jsem KeyVault a vytvořil key a secret
 
 ![lab06-1](Lab6-AzureKeyVault/Lab6-02-create-key.png)
 
