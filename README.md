@@ -96,3 +96,108 @@
 - aplikace úspěšně funguje (bohužel jsem zapomněl udělat screenshot a v ten den mi vypršelo předplatné)
 
 ![lab06-5](Lab6-AzureKeyVault/Lab6-05-Code.png)
+
+
+## Lab 7a
+
+- založil jsem Event Hub
+
+![lab07a-1](Lab7-Serverless/Lab7-01-EventHubCreated.png)
+
+- zprovoznil jsem posílání zpráv mezi přiloženými aplikacemi EventHubPublisher EventHubConsumerem
+- v Azure portalu u Event Hubu vidím posílané události
+
+![lab07a-2](Lab7-Serverless/Lab7-02-EventHubMessage.png)
+
+
+## Lab 7b
+
+- založil jsem Azure function
+
+![lab07b-1](Lab7-Serverless/Lab7b-01-FunctionCreated.png)
+
+- lokálně jsem spustil funkci v poskytnutém kódu (při neplatném požadavku kód vrátí instanci třídy BadRequestObjectResult)
+
+![lab07b-2](Lab7-Serverless/Lab7b-02-FunctionLocal.png)
+
+- funkci jsem publikoval
+
+![lab07b-3](Lab7-Serverless/Lab7b-03-FunctionPublished.png)
+
+- nyní je funkce veřejně přístupná
+
+![lab07b-4](Lab7-Serverless/Lab7b-04-FunctionPublic.png)
+
+- v Azure portalu vidím informace o této funkci
+
+![lab07b-5](Lab7-Serverless/Lab7b-05-FunctionPublic2.png)
+
+
+## Lab 7c
+
+- založil jsem Logic app
+
+![lab07c-1](Lab7-Serverless/Lab7c-01-LogicAppCreated.png)
+
+- v Logic app jsem vytvořil požadovaný trigger
+
+![lab07c-2](Lab7-Serverless/Lab7c-02-Workflow.png)
+
+
+- použil jsem poskytnutou EventHubPublisher aplikaci pro poslání eventu do Event hubu, který aktivoval vytvořený trigger a poslal mi mail
+
+![lab07c-3](Lab7-Serverless/Lab7c-03-Email.png)
+
+
+## Lab 8a
+
+- založil jsem Computer vision
+
+![lab08a-1](Lab8-CognitiveServices/Lab8a-01-ComputerVisionCreated.png)
+
+- použil jsem obrázek této třídy pro otestování
+
+![lab08a-2](Lab8-CognitiveServices/classroom.jpg)
+
+- přiložená aplikace mi pro tento obrázek vrací následující výstup
+
+![lab08a-3](Lab8-CognitiveServices/Lab8a-02-ComputerVisionClassroom.png)
+
+- spustil jsem to samé v konzoli
+
+![lab08a-4](Lab8-CognitiveServices/Lab8a-03-ComputerVisionConsole.png)
+
+
+## Lab 8b
+
+- vyzkoušel jsem Optical Character Recognition
+
+![lab08b-1](Lab8-CognitiveServices/ocr_1_image.jpg)
+
+![lab08b-2](Lab8-CognitiveServices/Lab8b-01-OCR.png)
+
+
+## Lab 8c
+
+- založil jsem Face API
+
+![lab08c-1](Lab8-CognitiveServices/Lab8c-01-FaceAPICreated.png)
+
+- poskytnutou aplikaci jsem spustil se svojí fotkou
+
+![lab08c-2](Lab8-CognitiveServices/face.png)
+
+![lab08c-3](Lab8-CognitiveServices/Lab8c-02-Output.png)
+
+
+## Lab 8d
+
+- založil jsem Speech service
+
+![lab08d-1](Lab8-CognitiveServices/Lab8d-01-SpeechServiceCreated.png)
+
+- vyzkoušel jsem projekt Speech SDK [(repo)](https://github.com/Azure-Samples/cognitive-services-speech-sdk)
+
+- nahrál jsem do něj svůj klíč ze Speech service, použil modul pro rozpoznávání řeči a pokusil se říct "NSWI152"
+
+![lab08d-2](Lab8-CognitiveServices/Lab8d-02-SpeechServiceTest.png)
