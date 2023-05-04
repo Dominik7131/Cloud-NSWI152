@@ -77,7 +77,7 @@
 
 ![lab05-2](Lab5-ApplicationInsights/Lab5-02-Telemetry-added.png)
 
-- v Azure portal vidím informace o své webové aplikaci
+- v Azure portalu vidím informace o své webové aplikaci
 
 ![lab05-3](Lab5-ApplicationInsights/Lab5-03-App-Insight.png)
 
