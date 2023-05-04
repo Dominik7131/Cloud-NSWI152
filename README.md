@@ -26,7 +26,7 @@
 
 ![lab02-3](Lab2-AzureSQL/Lab-2-02-Database-Query.png)
 
-- aplikace s kódem ze zadání se úspěšně přeloží
+- aplikace s kódem ze zadání se úspěšně přeloží a běží
 
 ![lab02-3](Lab2-AzureSQL/Lab-2-04-App-Builded.png)
 
@@ -77,7 +77,7 @@
 
 ![lab05-2](Lab5-ApplicationInsights/Lab5-02-Telemetry-added.png)
 
-- v Azure portal vidím informace o webové aplikaci
+- v Azure portal vidím informace o své webové aplikaci
 
 ![lab05-3](Lab5-ApplicationInsights/Lab5-03-App-Insight.png)
 
@@ -89,7 +89,7 @@
 
 ![lab06-2](Lab6-AzureKeyVault/Lab6-01-create-secret.png)
 
-- v aplikaci jsem získal secret z Azure portalu
+- v aplikaci jsem získal očekávaný secret z Azure portalu
 
 ![lab06-3](Lab6-AzureKeyVault/Lab6-03-code-execution.png)
 
@@ -174,7 +174,7 @@
 
 ## Lab 8b
 
-- vyzkoušel jsem Optical Character Recognition
+- vyzkoušel jsem Optical Character Recognition pro rozpoznání textu na obrázku
 
 ![lab08b-1](Lab8-CognitiveServices/ocr_1_image.jpg)
 
