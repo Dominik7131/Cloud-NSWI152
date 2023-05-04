@@ -5,7 +5,7 @@
     - u některých screenshotů jde špatně vidět text, proto se hodí je otevřít v novém okně
 
 ## Lab 1
-- podle instrukcí jsem založil a publikoval jednoduchou aplikaci
+- podle instrukcí jsem založil a publikoval jednoduchou webovou aplikaci
 
 ![lab01-1](Lab1-AppServicesDeployment/Lab1-01-VS-publish.png)
 
@@ -26,7 +26,7 @@
 
 ![lab02-3](Lab2-AzureSQL/Lab-2-02-Database-Query.png)
 
-- aplikace úspěšně funguje
+- aplikace s kódem ze zadání se úspěšně přeloží
 
 ![lab02-3](Lab2-AzureSQL/Lab-2-04-App-Builded.png)
 
@@ -38,7 +38,7 @@
 
 ![lab03-2](Lab3-AzureBlobStorage/Lab3-02-Container-Created.png)
 
-- přidal jsem connection string a aplikace úspěšně funguje
+- přidal jsem connection string do poskytnutého kódu a aplikace úspěšně funguje
 
 ![lab03-3](Lab3-AzureBlobStorage/Lab3-03-Successful-build.png)
 
@@ -54,7 +54,7 @@
 
 ![lab04-2](Lab4-AzureCosmosDB/Lab-4-02-Authentication.png)
 
-- vytvořil jsem databázi, kontejner a přidal do něj item, pak ho nahradil a updatnul
+- vytvořil jsem databázi, kontejner a přidal do něj item, pak tento item nahradil a updatnul
 
 ![lab04-3](Lab4-AzureCosmosDB/Lab-4-03-SimpleDatabase.png)
 
@@ -73,19 +73,23 @@
 
 ![lab05-1](Lab5-ApplicationInsights/Lab5-01-Applications-Insights-created.png)
 
-- přidal jsem telemetry a aplikace úspěšně funguje
+- mimo jiné jsem přidal telemetry
 
 ![lab05-2](Lab5-ApplicationInsights/Lab5-02-Telemetry-added.png)
+
+- v Azure portal vidím informace o webové aplikaci
 
 ![lab05-3](Lab5-ApplicationInsights/Lab5-03-App-Insight.png)
 
 ## Lab 6
 
-- založil jsem KeyVault a vytvořil key a secret
+- založil jsem KeyVault a vytvořil key a secret s hodnotou "hello"
 
 ![lab06-1](Lab6-AzureKeyVault/Lab6-02-create-key.png)
 
 ![lab06-2](Lab6-AzureKeyVault/Lab6-01-create-secret.png)
+
+- v aplikaci jsem získal secret z Azure portalu
 
 ![lab06-3](Lab6-AzureKeyVault/Lab6-03-code-execution.png)
 
@@ -93,7 +97,7 @@
 
 ![lab06-4](Lab6-AzureKeyVault/Lab6-04-permission-settings.png)
 
-- aplikace úspěšně funguje (bohužel jsem zapomněl udělat screenshot a v ten den mi vypršelo předplatné)
+- aplikace s poskytnutým kódem úspěšně funguje (bohužel jsem zapomněl udělat screenshot a v ten den mi vypršelo předplatné na prvním účtu)
 
 ![lab06-5](Lab6-AzureKeyVault/Lab6-05-Code.png)
 
@@ -144,7 +148,7 @@
 ![lab07c-2](Lab7-Serverless/Lab7c-02-Workflow.png)
 
 
-- použil jsem poskytnutou EventHubPublisher aplikaci pro poslání eventu do Event hubu, který aktivoval vytvořený trigger a poslal mi mail
+- použil jsem poskytnutou EventHubPublisher aplikaci pro poslání eventu do Event hubu, který aktivoval vytvořený trigger a poslal mi email
 
 ![lab07c-3](Lab7-Serverless/Lab7c-03-Email.png)
 
@@ -159,7 +163,7 @@
 
 ![lab08a-2](Lab8-CognitiveServices/classroom.jpg)
 
-- přiložená aplikace mi pro tento obrázek vrací následující výstup
+- aplikace s poskytnutým kódem mi pro tento obrázek vrátilá následující výstup
 
 ![lab08a-3](Lab8-CognitiveServices/Lab8a-02-ComputerVisionClassroom.png)
 
@@ -183,7 +187,7 @@
 
 ![lab08c-1](Lab8-CognitiveServices/Lab8c-01-FaceAPICreated.png)
 
-- poskytnutou aplikaci jsem spustil se svojí fotkou
+- aplikaci s poskytnutým kódem jsem dal na vstup fotku svého obličeje
 
 ![lab08c-2](Lab8-CognitiveServices/face.png)
 
@@ -198,6 +202,6 @@
 
 - vyzkoušel jsem projekt Speech SDK [(repo)](https://github.com/Azure-Samples/cognitive-services-speech-sdk)
 
-- nahrál jsem do něj svůj klíč ze Speech service, použil modul pro rozpoznávání řeči a pokusil se říct "NSWI152"
+- nahrál jsem do něj svůj klíč ze Speech service, použil modul pro rozpoznávání řeči a pokusil se v angličtině říct "NSWI152"
 
 ![lab08d-2](Lab8-CognitiveServices/Lab8d-02-SpeechServiceTest.png)
