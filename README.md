@@ -104,7 +104,7 @@
 
 ![lab07a-1](Lab7-Serverless/Lab7a-01-EventHubCreated.png)
 
-- zprovoznil jsem posílání zpráv mezi přiloženými aplikacemi EventHubPublisher EventHubConsumerem
+- zprovoznil jsem posílání zpráv mezi poskytnutými aplikacemi EventHubPublisher a EventHubConsumer
 - v Azure portalu u Event Hubu vidím posílané události
 
 ![lab07a-2](Lab7-Serverless/Lab7a-02-EventHubMessage.png)
@@ -116,7 +116,7 @@
 
 ![lab07b-1](Lab7-Serverless/Lab7b-01-FunctionCreated.png)
 
-- lokálně jsem spustil funkci v poskytnutém kódu (při neplatném požadavku kód vrátí instanci třídy BadRequestObjectResult)
+- lokálně jsem spustil funkci s poskytnutým kódem (při neplatném požadavku kód vrátí instanci třídy BadRequestObjectResult)
 
 ![lab07b-2](Lab7-Serverless/Lab7b-02-FunctionLocal.png)
 
