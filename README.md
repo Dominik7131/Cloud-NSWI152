@@ -102,12 +102,12 @@
 
 - založil jsem Event Hub
 
-![lab07a-1](Lab7-Serverless/Lab7-01-EventHubCreated.png)
+![lab07a-1](Lab7-Serverless/Lab7a-01-EventHubCreated.png)
 
 - zprovoznil jsem posílání zpráv mezi přiloženými aplikacemi EventHubPublisher EventHubConsumerem
 - v Azure portalu u Event Hubu vidím posílané události
 
-![lab07a-2](Lab7-Serverless/Lab7-02-EventHubMessage.png)
+![lab07a-2](Lab7-Serverless/Lab7a-02-EventHubMessage.png)
 
 
 ## Lab 7b
