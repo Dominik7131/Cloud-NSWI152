@@ -97,9 +97,9 @@
 
 ![lab06-4](Lab6-AzureKeyVault/Lab6-04-permission-settings.png)
 
-- aplikace s poskytnutým kódem úspěšně funguje (bohužel jsem zapomněl udělat screenshot a v ten den mi vypršelo předplatné na prvním účtu)
+- aplikace s poskytnutým kódem se úspěšně přeloží a běží
 
-![lab06-5](Lab6-AzureKeyVault/Lab6-05-Code.png)
+![lab06-5](Lab6-AzureKeyVault/Lab6-05-AppBuilded.png)
 
 
 ## Lab 7a
